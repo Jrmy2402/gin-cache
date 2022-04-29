@@ -2,7 +2,6 @@ package cache
 
 import (
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"math/rand"
 	"net/http"
 	"net/http/httptest"
@@ -10,7 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chenyahui/gin-cache/persist"
+	"github.com/stretchr/testify/require"
+
+	"github.com/Jrmy2402/gin-cache/persist"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 )
